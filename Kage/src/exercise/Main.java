@@ -8,7 +8,7 @@ public class Main {
         int antalÆg = 3;
         int gramMel = 200;
         int gramIngredienser = gramSukker + teskefuldeVanilje*3 + antalÆg + gramMel;
-        System.out.println("samlet ingrediensmængde " + gramIngredienser);
+        System.out.println("Samlet ingrediensmængde " + gramIngredienser);
         double gramfærdigKage = gramIngredienser * 0.9;
         System.out.println("vægt færdig kage " + gramfærdigKage);
         double proteinPerÆg = 7.4;
